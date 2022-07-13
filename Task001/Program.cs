@@ -7,7 +7,5 @@ int SecNum(int a)
     int secondNum = a / 10 % 10;
     return secondNum;
 }
-
-
 int num = new Random().Next(100, 1000);
 Console.WriteLine($"{num} -> {SecNum(num)}");
